@@ -1,3 +1,10 @@
+/*body{
+	width: 1024px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+}*/
+
 .bg-main{
 	background-image: url("../images/intersection.png"); 
 	height: 100%;
@@ -6,15 +13,37 @@
 	background-size: cover;
 } /*Is this a good class?*/
 
+.cust-navHeader{
+	background-color: teal;
+}
 
+.cust-navBrand{
+	color: white;
+	font-weight: bold;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
 .bg-section{
 	background-color: white;
 }
 
-.cssFoot{
+.cust-secHeader{
+	color: teal;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+#cust-imgProfile{
+	float:left;
+	margin-right: 20px;
+}
+
+#cust-submitBtn{
 	background-color: teal;
 	color: white;
-	text-align: center;
+}
+
+.cust-footer{
+	background-color: #666;
+	color: white;
 }
 
 #social-01,
@@ -33,13 +62,6 @@
 *:before,
 *:after{
 	box-sizing: border-box;
-}
-
-body{
-	width: 1024px;
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	color: #777777;
-	background-color: white;
 }
 
 .content-entire{

@@ -17,8 +17,8 @@
 
   <nav class="navbar navbar-default">
     <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Douglas McCandless</a>
+      <div class="navbar-header cust-navHeader">
+        <a class="navbar-brand" href="#"><p class="cust-navBrand">Douglas McCandless</p></a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -33,7 +33,7 @@
   <div class="container bg-main">
       <div class="row col-md-8 bg-section">
         <div class="page-header">
-          <h1>Contact Me</h1>
+          <h1 class="cust-secHeader">Contact Me</h1>
         </div>
         <div class="content-subSection">
 			<form method="post" action="https://www.example.com" class="form-group">
@@ -55,7 +55,8 @@
 					</label>
 				</p>
 				<p>
-					<input type="submit" value="Submit" id="button-form" class="form-control">
+					<!--<input type="submit" value="Submit" id="button-form" class="form-control btn btn-default">-->
+					<button type="submit" class="btn btn-default" id="cust-submitBtn">Submit</button>
 				</p>
 			</form>
 		</div>
@@ -88,8 +89,8 @@
 
   <div class="col-md-12">
           <div class="panel panel-default">
-            <div class="panel-footer cssFoot">
-              <small>&Copy;2018 Douglas McCandless</small>
+            <div class="panel-footer cust-footer">
+              <p class="text-center"><small>&copy;2018 Douglas McCandless</small></p>
             </div>
           </div>
   </div>
