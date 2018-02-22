@@ -1,9 +1,10 @@
-/*body{
-	width: 1024px;
+body{
+	/*width: 1024px;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #777777;
+	width: 1024px;*/
 	background-color: white;
-}*/
+}
 
 .bg-main{
 	background-image: url("../images/intersection.png"); 
@@ -13,14 +14,25 @@
 	background-size: cover;
 } /*Is this a good class?*/
 
+.cust-main{
+	border-top: 2px solid #dddddd;
+	padding-top: 30px;
+	margin-top: -20px;
+}
+
 .cust-navHeader{
 	background-color: teal;
+	padding-bottom: 20px;
+	
 }
 
 .cust-navBrand{
 	color: white;
 	font-weight: bold;
 	font-family: "Georgia", Times, "Times New Roman", serif;
+	width: 230px;
+	text-align: center;
+	padding: 10px 10px 25px 15px;
 }
 .bg-section{
 	background-color: white;
@@ -29,6 +41,15 @@
 .cust-secHeader{
 	color: teal;
 	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+.cust-socialHeader{
+	color: teal;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+.cust-socialLinks{
+	text-align: center;
 }
 
 #cust-imgProfile{
@@ -44,14 +65,49 @@
 .cust-footer{
 	background-color: #666;
 	color: white;
+	border-top: 5px solid #4aaaa5;
 }
 
 #social-01,
-#social-02,
 #social-03{
 	width: 70px;
 	height: 70px;
 }
+
+#social-02{
+	width: 76px;
+	height: 76px;
+	margin-bottom: -1px;
+}
+
+
+.heading-portfolio{
+	width: 220px;
+	position: relative;
+	top: -70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: ;
+	color: font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+}
+
+
+#portfolio-item-01,
+#portfolio-item-02,
+#portfolio-item-03,
+#portfolio-item-04,
+#portfolio-item-05{
+	width: 220px;
+	height: 170px;
+}
+
 
 /*.nav-social{
 	display: inline;
